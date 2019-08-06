@@ -1,0 +1,25 @@
+.footer.ant-card {
+	clear: both;
+    height: 90px;
+    text-align: center;
+    background: #f8f8f8;
+    border: 1px solid #aaa;
+    width: 1024px;
+    position: relative;
+    margin: 4px auto 0;
+}
+.footer p{
+    line-height: 30px;
+    text-align: center;
+    margin-bottom:0;
+    font-size: 12px;
+}
+.footer p .boldfont{
+    font-weight: bold;
+}
+.footer p a{
+	color: orange;
+} 
+.footer.ant-card-wider-padding .ant-card-body{
+	padding: 0;
+}

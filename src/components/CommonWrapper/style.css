@@ -1,0 +1,69 @@
+.common .logo {
+    background-color: #fff;
+}
+.common .logo .common-logo {
+	display: block;
+	float: left;
+    height: 60px;
+    margin:0 30px;
+}
+.common .logo ul{
+    border:0;
+}
+.common .logo .ant-menu-item {
+	white-space: nowrap;
+    float: left;
+    padding: 0 10px;
+    margin-top: 13px;
+    border-right: 1px solid #666;
+    border-bottom: 0;
+    font-size: 12px;
+    color: #666;
+    margin:5px 0!important;
+    line-height: 20px
+}
+.common .logo .ant-menu-item:hover {
+    border-bottom: 0;
+}
+.common .logo .ant-menu-item:hover a{
+    color:orange;
+}
+.common .menu {
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #FFE9D3;
+}
+.common .menu h2 {
+    border-bottom: 1px solid #FFE9D3;
+    background: #fdf4e5;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    color: #666;
+}
+.common .menu .slowSpeed {
+    border-right: 1px solid #FFE9D3;;
+    border-left: 1px solid #FFE9D3;
+}
+.common .menu li{
+    height: 26px;
+    line-height: 26px;
+    float: left;
+}
+.common .menu a{
+    color:#666;
+}
+.common a:hover{
+    color:orange;
+    transition: all 0s;
+}
+.common .menu .normalSpeed li{
+    width: 100%;
+}
+.common .menu .slowSpeed li, .common .menu .englishTrain li{
+    width: 20%;
+}

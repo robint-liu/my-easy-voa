@@ -1,0 +1,156 @@
+.details {
+	width: 850px;
+	border: 0;
+	background-color:#fff; 
+}
+.details .detailsNav {
+	width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    border-bottom: 1px dotted #bbb;
+    text-indent: 12px;
+    font-size: 12px;
+    color: #666;
+    overflow: hidden;
+}
+.details .detailsNav span a{
+    font-size: 12px;
+    color: #666;
+}
+.details .detailsNav span a:hover{
+    color: orange;
+}
+.details .detailsHeader {
+    background: #fff;
+    border-bottom: 1px dotted #bbb;
+    padding: 10px 0;
+}
+.details .detailsHeader h1{
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #007dc6;
+    font-size: 16px;
+    font-weight: 700
+}
+.details .detailsHeader p{
+    width: 440px;
+    margin: 0 auto 0 auto;
+    color: #0066cc;
+}
+.details .detailsHeader p small {
+    font-size: 12px;
+    margin-left: 20px;
+}
+.details .detailsHeader p a {
+    color: #0099cc;
+}
+.details .detailsmain {
+    min-height: 600px;
+    position: relative;
+    padding: 10px 15px 0 15px;
+}
+.details .detailsfooter {
+    margin: 20px 0 0 0;
+    padding-bottom: 5px;
+}
+.detailsmain_audio {
+    width: 470px;
+    float: right;
+    margin: 5px 0 10px;
+}
+.details .detailsmain .detailsmain_echarts {
+    width: 335px;
+    height: 280px;
+    margin: 5px 15px 0 0;
+    float: left;
+    background-color: red;
+    /*line-height: normal;
+    background-color: rgb(219, 68, 55);
+    overflow: hidden;
+    position: absolute;
+    margin: 15px;
+    top: 0px;
+    left: 0px;
+    width: 335px;
+    height: 280px;
+    border-radius: 0px;*/
+}
+.detailsmain_audio button {
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border-color: #fff;
+    border-radius:5px;
+    color:#fff;
+    font-size: 12px;
+    text-align: center;
+}
+.detailsmain_audio .download {
+    background: url("../../static/imgs/download.PNG") center no-repeat;
+    background-size: 100%;
+    height: 33px;
+    border:0;
+}
+.detailsmain_audio .playbtn {
+    background-color: #a4db65;
+}
+.detailsmain_audio .stopbtn {
+    background-color: #e9ae4e;
+    margin:0 10px;
+}
+.detailsmain_audio .loop {
+    width: 45px;
+    background-color: #ff4444;
+    margin:0 10px;
+}
+.detailsmain_audio .download {
+    background-color: #d5d5d5;
+}
+.details .detailsmain p{
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0;
+    color: #000;
+}
+.details .detailsmain p img{
+    float: left;
+    padding: 0 10px 0 0;
+}
+.details .detailsfooter h2{
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 25px;
+    line-height: 25px;
+    color: #fff;
+    background: #777dff;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 15px;
+}
+.details .detailsfooter ul{
+    padding:0 15px;
+    min-height: 200px;
+    overflow: hidden;
+}
+.details .detailsfooter ul li{
+    width: 380px;
+    float: left;
+    margin-left: 18px;
+    list-style: disc;
+    list-style-position: inside;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    padding-top: 5px;
+}
